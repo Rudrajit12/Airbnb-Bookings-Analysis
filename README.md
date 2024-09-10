@@ -49,19 +49,19 @@ The dataset contains detailed information about Airbnb listings, including:
 
 ### 1. Host Insights:
 One host, **Maya**, dominates listings in a popular neighborhood, attracting guests with affordable prices and high availability.  
-![Host Insights](https://prod-files-secure.s3.us-west-2.amazonaws.com/5a39aa15-afe4-46d3-9bf3-baeae25a5197/2f048bf1-c29c-4c27-84bf-224603b3f044/hosts.png)
+![Host Insights](https://drive.google.com/uc?export=view&id=1HzhN-lV4YNjRfW_ZVFgoqgAy481vdhon)
 
 ### 2. Neighborhood Insights:
 **Manhattan** and **Brooklyn** have the most listings, with higher prices due to demand. **Staten Island** offers cheaper, less frequented options.  
-![Neighborhood Insights](https://prod-files-secure.s3.us-west-2.amazonaws.com/5a39aa15-afe4-46d3-9bf3-baeae25a5197/2a239a43-fc1b-44d6-9dd4-706a2ebb14aa/neighborhood.png)
+![Neighborhood Insights](https://drive.google.com/uc?export=view&id=1ylfPs_d1aRoID7VVtd3XZ-bIpC08jg4x)
 
 ### 3. Room Type Preferences:
 Travelers prefer renting entire apartments or private rooms over shared spaces.  
-![Room Insights](https://prod-files-secure.s3.us-west-2.amazonaws.com/5a39aa15-afe4-46d3-9bf3-baeae25a5197/999e909b-85b7-4fcc-8e54-9fc83458f80f/rooms.png)
+![Room Insights](https://drive.google.com/uc?export=view&id=16DcLf07BE7M9FBGIYV3ZkbmGvCvLqrd0)
 
 ### 4. Seasonal Booking Trends:
 Bookings vary throughout the year, offering opportunities for hosts to adjust prices and availability.  
-![Seasonal Trends](https://prod-files-secure.s3.us-west-2.amazonaws.com/5a39aa15-afe4-46d3-9bf3-baeae25a5197/27b3ac78-6428-41f4-8cc0-02815a5e9b80/neighborhoodavailable.png)
+![Seasonal Trends](https://drive.google.com/uc?export=view&id=1e4DTHkp3yoEuI-7wc-Gd6UDpc_18ekeL)
 
 ---
 
