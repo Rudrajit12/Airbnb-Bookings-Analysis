@@ -1,93 +1,114 @@
-# Airbnb Bookings Analysis
+# Airbnb Bookings Analysis - NYC
 
-**Project Category**: Exploratory Data Analysis  
-**Tools & Technologies Used**: Python, NumPy, Pandas, Matplotlib, Seaborn, Jupyter Notebooks, Tableau
+![Airbnb Logo](https://prod-files-secure.s3.us-west-2.amazonaws.com/5a39aa15-afe4-46d3-9bf3-baeae25a5197/a86d6d83-4d80-433c-a5df-cbeb47d33f4d/image-airbnb.jpg)
 
-![image-airbnb.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/5a39aa15-afe4-46d3-9bf3-baeae25a5197/a86d6d83-4d80-433c-a5df-cbeb47d33f4d/image-airbnb.jpg)
+### **Project Category**: Exploratory Data Analysis  
+### **Tools & Technologies**:  
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-3776AB?style=for-the-badge&logo=matplotlib&logoColor=white) ![Seaborn](https://img.shields.io/badge/Seaborn-43B02A?style=for-the-badge&logo=seaborn&logoColor=white) ![Tableau](https://img.shields.io/badge/Tableau-00008B?style=for-the-badge&logo=tableau&logoColor=white)  
+**Other Tools**: NumPy, Jupyter Notebooks
 
-## Overview:
-The Airbnb Bookings Analysis project dives into data on listings in New York City to uncover insights that can help Airbnb, hosts, and travelers. Using data analytics, this project aims to improve decision-making and enhance user experiences on the platform.
+---
 
-## Problem Statement:
-Airbnb has a wealth of data, but it’s often hard to extract actionable insights. This project focuses on analyzing 49,000 Airbnb listings in NYC to answer the following questions:
-- What can we learn about different hosts and neighborhoods?
-- How can this information help in making better decisions?
-- Who are the most popular hosts, and why do some neighborhoods attract more visitors than others?
+## Overview
 
-## Data Description:
-**Data Source**: [Airbnb NYC Listings Data](https://drive.google.com/file/d/11DyDThliFDsjmkcfGr-QnA-q3C5A7M07/view?usp=sharing)
+The Airbnb Bookings Analysis project investigates New York City listings to discover trends and insights that benefit **Airbnb**, **hosts**, and **travelers**. By exploring this dataset, we aim to enhance decision-making processes using data-driven insights.
 
-This dataset contains details about Airbnb listings in NYC, including host information, neighborhood, price, room type, availability, and booking history.
+---
 
-## Preliminary Questions:
-Some key questions to guide our analysis include:
-1. Who has the most places listed on Airbnb?
-2. Which neighborhoods have the most listings?
-3. What types of rooms are the most popular?
-4. How does price vary by neighborhood and room type?
+## Problem Statement
 
-## Methodology:
-1. **Define Objectives**: Identify key insights we aim to uncover.
-2. **Data Collection**: Analyze the Airbnb dataset for NYC.
-3. **Data Cleaning**: Clean and preprocess the data to handle missing values and inconsistencies.
-4. **Exploration & Analysis**: Investigate the data for patterns, trends, and anomalies.
-5. **Actionable Insights**: Provide recommendations to Airbnb, hosts, and travelers based on the findings.
+Airbnb collects a vast amount of data, making it difficult to extract actionable insights. Our project analyzes **49,000+ listings in NYC** to answer key questions:
+- What can we learn about hosts and neighborhoods?
+- Which factors impact pricing, availability, and customer preferences?
+- Why are certain hosts and neighborhoods more popular?
 
-## Analysis and Insights:
-1. **Host Insights**: Hosts like Maya with multiple listings in the same neighborhood are highly popular due to competitive pricing and availability.
-   
-   ![hosts.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5a39aa15-afe4-46d3-9bf3-baeae25a5197/2f048bf1-c29c-4c27-84bf-224603b3f044/hosts.png)
+---
 
-2. **Neighborhood Insights**: Manhattan and Brooklyn dominate with the most expensive and popular listings, while Staten Island offers fewer and more affordable options.
-   
-   ![neighborhood.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5a39aa15-afe4-46d3-9bf3-baeae25a5197/2a239a43-fc1b-44d6-9dd4-706a2ebb14aa/neighborhood.png)
+## Data Description
 
-3. **Room Type Insights**: Entire apartments and private rooms are most popular, with shared spaces being less preferred.
-   
-   ![rooms.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5a39aa15-afe4-46d3-9bf3-baeae25a5197/999e909b-85b7-4fcc-8e54-9fc83458f80f/rooms.png)
+**[Download Dataset](https://drive.google.com/file/d/11DyDThliFDsjmkcfGr-QnA-q3C5A7M07/view?usp=sharing)**  
+The dataset contains detailed information about Airbnb listings, including:
+- **Host** and **listing information**
+- **Neighborhood** data
+- **Pricing** and **availability** details
+- **Room types** and **booking history**
 
-4. **Booking Trends**: Certain times of the year experience higher demand, allowing hosts to adjust their prices accordingly.
-   
-   ![neighborhoodavailable.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5a39aa15-afe4-46d3-9bf3-baeae25a5197/27b3ac78-6428-41f4-8cc0-02815a5e9b80/neighborhoodavailable.png)
+---
 
-5. **Price Insights**: Manhattan and Brooklyn listings are priced higher due to higher demand.
+## Analysis Approach
 
-6. **Customer Behavior**: Listings with competitive pricing, availability, and good reviews are highly preferred by travelers.
+1. **Data Cleaning**: Handling missing values and correcting data inconsistencies.
+2. **Exploratory Analysis**: Visualizing and exploring key metrics.
+3. **Deriving Insights**: Understanding trends and behaviors to offer actionable recommendations.
+4. **Visualization**: Leveraging **Tableau** and **Seaborn** for data visualization.
 
-7. **Business Optimization**: Hosts can increase profitability by offering attractive prices, maximizing availability, and ensuring positive guest experiences.
+---
 
-## Impact and Implications:
-1. **Hosts**: Can optimize listings for better earnings by adjusting prices and improving guest experiences.
-2. **Travelers**: Gain insights into how to find the best accommodations that suit their needs.
-3. **Airbnb**: Can use these insights to improve its platform and cater better to users.
+## Key Insights
 
-## Challenges & Limitations:
-1. **Data Issues**: The dataset contains some missing values and outliers that required careful cleaning.
-2. **Timeframe**: The data is from a specific time period and might not capture recent trends.
-3. **Scope**: The analysis is focused on NYC; patterns may differ in other locations.
+### 1. Host Insights:
+One host, **Maya**, dominates listings in a popular neighborhood, attracting guests with affordable prices and high availability.  
+![Host Insights](https://prod-files-secure.s3.us-west-2.amazonaws.com/5a39aa15-afe4-46d3-9bf3-baeae25a5197/2f048bf1-c29c-4c27-84bf-224603b3f044/hosts.png)
 
-## Future Scope:
-1. **Expanding to Other Cities**: Conduct similar analyses for other major cities.
-2. **Advanced Prediction Models**: Use machine learning to forecast prices and availability.
-3. **Sentiment Analysis**: Analyze customer reviews to understand guest satisfaction.
+### 2. Neighborhood Insights:
+**Manhattan** and **Brooklyn** have the most listings, with higher prices due to demand. **Staten Island** offers cheaper, less frequented options.  
+![Neighborhood Insights](https://prod-files-secure.s3.us-west-2.amazonaws.com/5a39aa15-afe4-46d3-9bf3-baeae25a5197/2a239a43-fc1b-44d6-9dd4-706a2ebb14aa/neighborhood.png)
 
-## Conclusion:
-This project has provided valuable insights into the Airbnb listings in NYC, identifying trends in host behavior, neighborhood preferences, pricing strategies, and customer choices. These insights can help Airbnb, hosts, and travelers make better decisions. Further research can expand the scope and provide even more granular insights.
+### 3. Room Type Preferences:
+Travelers prefer renting entire apartments or private rooms over shared spaces.  
+![Room Insights](https://prod-files-secure.s3.us-west-2.amazonaws.com/5a39aa15-afe4-46d3-9bf3-baeae25a5197/999e909b-85b7-4fcc-8e54-9fc83458f80f/rooms.png)
 
-## References:
-1. [Analytics Vidhya: Airbnb Listings Analysis](https://www.analyticsvidhya.com/blog/2021/10/end-to-end-predictive-analysis-on-airbnb-listings-data/)
-2. [Investopedia: Pros and Cons of Using Airbnb](https://www.investopedia.com/articles/personal-finance/032814/pros-and-cons-using-airbnb.asp)
-3. [Kaggle: NYC Airbnb EDA](https://www.kaggle.com/code/wguesdon/nyc-airbnb-eda-visualization-regression)
+### 4. Seasonal Booking Trends:
+Bookings vary throughout the year, offering opportunities for hosts to adjust prices and availability.  
+![Seasonal Trends](https://prod-files-secure.s3.us-west-2.amazonaws.com/5a39aa15-afe4-46d3-9bf3-baeae25a5197/27b3ac78-6428-41f4-8cc0-02815a5e9b80/neighborhoodavailable.png)
 
-## Materials & Resources:
-- **IPYNB Notebook**: [Colab Link](https://colab.research.google.com/drive/1YME0G9qLKqZg3wTbfunEx6rBi-VBuOvP?usp=sharing)
-- **GitHub Link**: [GitHub Repository](https://github.com/Rudrajit12/Airbnb-Bookings-Analysis)
-- **Tableau Dashboard Link**: [Tableau Visualization](https://public.tableau.com/views/AirbnbNYC-TableauProject/InsightsAirbnb?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
+---
 
-## Credits:
+## Challenges & Limitations
+
+1. **Data Quality**: Missing and incomplete values posed challenges, requiring careful data cleaning.
+2. **Time-bound Data**: The dataset represents a snapshot, and trends may have shifted over time.
+3. **NYC Focus**: This analysis is specific to New York City and may not reflect other markets.
+
+---
+
+## Future Scope
+
+1. Expand the analysis to other major cities to compare trends.
+2. Implement predictive models for **pricing** and **availability** based on seasonality.
+3. Explore guest reviews for sentiment analysis and guest experience insights.
+
+---
+
+## Conclusion
+
+This analysis provides valuable insights into the dynamics of Airbnb in New York City, uncovering trends in host behavior, pricing, and traveler preferences. These findings can help **Airbnb** improve its platform and assist **hosts** in optimizing their offerings, while **travelers** can find better-suited stays.
+
+---
+
+## Resources
+
+- **IPYNB Notebook**: [Colab Link](https://colab.research.google.com/drive/1YME0G9qLKqZg3wTbfunEx6rBi-VBuOvP?usp=sharing)  
+- **GitHub Repository**: [GitHub Link](https://github.com/Rudrajit12/Airbnb-Bookings-Analysis)  
+- **Tableau Dashboard**: [Tableau Link](https://public.tableau.com/views/AirbnbNYC-TableauProject/InsightsAirbnb?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
+
+---
+
+## References
+
+1. [Analytics Vidhya - Airbnb Listings Analysis](https://www.analyticsvidhya.com/blog/2021/10/end-to-end-predictive-analysis-on-airbnb-listings-data/)
+2. [Investopedia - Pros & Cons of Using Airbnb](https://www.investopedia.com/articles/personal-finance/032814/pros-and-cons-using-airbnb.asp)
+3. [Kaggle - NYC Airbnb Analysis](https://www.kaggle.com/code/wguesdon/nyc-airbnb-eda-visualization-regression)
+
+---
+
+## About the Author
+
 **Author**: Rudrajit Bhattacharyya  
-This project was part of the AlmaBetter Full Stack Data Science Certificate.
+This project was part of the **AlmaBetter Full Stack Data Science** program.
 
-**Email**: [rudrajitb24@gmail.com](mailto:rudrajitb24@gmail.com)  
-**LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/rudrajitb/)  
-**GitHub**: [GitHub Profile](https://github.com/Rudrajit12)
+- **Email**: [rudrajitb24@gmail.com](mailto:rudrajitb24@gmail.com)  
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/rudrajitb/)  
+- **GitHub**: [GitHub Profile](https://github.com/Rudrajit12)
+
+---
