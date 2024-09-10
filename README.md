@@ -1,6 +1,6 @@
 # Airbnb Bookings Analysis - NYC
 
-![Airbnb Logo](https://drive.google.com/file/d/1wHAejNq4926hxVFbz9ZrXwcurPSQ483b/view?usp=sharing)
+(https://drive.google.com/file/d/1wHAejNq4926hxVFbz9ZrXwcurPSQ483b/view?usp=sharing)
 
 ### **Project Category**: Exploratory Data Analysis  
 ### **Tools & Technologies**:  
