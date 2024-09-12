@@ -63,6 +63,19 @@ Travelers prefer renting entire apartments or private rooms over shared spaces.
 Bookings vary throughout the year, offering opportunities for hosts to adjust prices and availability.  
 ![Seasonal Trends](https://drive.google.com/uc?export=view&id=1e4DTHkp3yoEuI-7wc-Gd6UDpc_18ekeL)
 
+### 5. Price Insights:
+Places in Manhattan and Brooklyn cost more because they're in high-demand areas.
+
+---
+
+## Impact & Implications:
+
+Our project's findings can help hosts, travelers, and Airbnb in different ways:
+
+1. **Hosts**: They can make more money by offering good prices and keeping their places nice and available.
+2. **Travelers**: They can find better places to stay that fit their budget and preferences.
+3. **Airbnb**: They can improve their website and services to make everyone happy.
+
 ---
 
 ## Challenges & Limitations
